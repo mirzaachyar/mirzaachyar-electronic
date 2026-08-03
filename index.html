@@ -1,0 +1,2288 @@
+<!DOCTYPE html>
+
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<meta name="description"
+    content="Mirza Electronic - Toko elektronik terpercaya dengan produk berkualitas dan harga terbaik.">
+
+<title>Mirza Electronic | Toko Elektronik</title>
+
+<!-- Bootstrap -->
+<link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+
+<!-- Font Awesome -->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<!-- Google Font -->
+<link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+
+<body>
+
+<!-- =====================================================
+     TOP BAR
+===================================================== -->
+
+<div class="top-bar">
+    <div class="container">
+        <div class="top-bar-content">
+
+```
+        <span>
+            <i class="fa-solid fa-truck-fast"></i>
+            Gratis pengiriman untuk area tertentu
+        </span>
+
+        <span class="top-bar-right">
+            <i class="fa-solid fa-phone"></i>
+            Customer Service: 085174392098
+        </span>
+
+    </div>
+</div>
+```
+
+</div>
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="main-header">
+
+```
+<div class="container">
+
+    <div class="header-main">
+
+        <!-- LOGO -->
+
+        <a href="#home" class="logo">
+
+            <div class="logo-icon">
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+
+            <div class="logo-text">
+                <strong>Mirza</strong>
+                <span>Electronic</span>
+            </div>
+
+        </a>
+
+
+        <!-- SEARCH -->
+
+        <div class="search-wrapper">
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Cari produk elektronik...">
+
+                <select id="searchCategory">
+
+                    <option value="all">
+                        Semua Kategori
+                    </option>
+
+                    <option value="AC">
+                        AC
+                    </option>
+
+                    <option value="TV">
+                        TV
+                    </option>
+
+                    <option value="Kulkas">
+                        Kulkas
+                    </option>
+
+                    <option value="Mesin Cuci">
+                        Mesin Cuci
+                    </option>
+
+                    <option value="Kipas">
+                        Kipas Angin
+                    </option>
+
+                    <option value="Dapur">
+                        Peralatan Dapur
+                    </option>
+
+                </select>
+
+                <button id="searchButton">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- HEADER ACTION -->
+
+        <div class="header-actions">
+
+            <button
+                class="header-action"
+                id="wishlistButton">
+
+                <i class="fa-regular fa-heart"></i>
+
+                <span>Wishlist</span>
+
+                <b id="wishlistCount">0</b>
+
+            </button>
+
+
+            <button
+                class="header-action"
+                id="cartButton">
+
+                <i class="fa-solid fa-cart-shopping"></i>
+
+                <span>Keranjang</span>
+
+                <b id="cartCount">0</b>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+```
+
+</header>
+
+<!-- =====================================================
+     NAVIGATION
+===================================================== -->
+
+<nav class="main-nav">
+
+```
+<div class="container">
+
+    <div class="nav-wrapper">
+
+        <div class="category-menu">
+
+            <button id="categoryMenuButton">
+
+                <i class="fa-solid fa-bars"></i>
+
+                Semua Kategori
+
+                <i class="fa-solid fa-chevron-down"></i>
+
+            </button>
+
+            <div
+                class="category-dropdown"
+                id="categoryDropdown">
+
+                <a href="#" data-category="all">
+                    <i class="fa-solid fa-border-all"></i>
+                    Semua Produk
+                </a>
+
+                <a href="#" data-category="AC">
+                    <i class="fa-solid fa-snowflake"></i>
+                    AC
+                </a>
+
+                <a href="#" data-category="TV">
+                    <i class="fa-solid fa-tv"></i>
+                    TV
+                </a>
+
+                <a href="#" data-category="Kulkas">
+                    <i class="fa-solid fa-box"></i>
+                    Kulkas
+                </a>
+
+                <a href="#" data-category="Mesin Cuci">
+                    <i class="fa-solid fa-shirt"></i>
+                    Mesin Cuci
+                </a>
+
+                <a href="#" data-category="Kipas">
+                    <i class="fa-solid fa-fan"></i>
+                    Kipas Angin
+                </a>
+
+                <a href="#" data-category="Dapur">
+                    <i class="fa-solid fa-kitchen-set"></i>
+                    Peralatan Dapur
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="nav-links">
+
+            <a href="#home" class="active">
+                Home
+            </a>
+
+            <a href="#produk">
+                Produk
+            </a>
+
+            <a href="#kategori">
+                Kategori
+            </a>
+
+            <a href="#promo">
+                Promo
+            </a>
+
+            <a href="#layanan">
+                Layanan
+            </a>
+
+            <a href="#tentang">
+                Tentang Kami
+            </a>
+
+            <a href="#kontak">
+                Kontak
+            </a>
+
+        </div>
+
+
+        <a
+            href="#promo"
+            class="nav-promo">
+
+            <i class="fa-solid fa-fire"></i>
+
+            Promo Hari Ini
+
+        </a>
+
+    </div>
+
+</div>
+```
+
+</nav>
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<main>
+
+<section id="home" class="hero-section">
+
+```
+<div class="container">
+
+    <div class="hero-slider">
+
+        <!-- SLIDE 1 -->
+
+        <div class="hero-slide active">
+
+            <div class="hero-content">
+
+                <span class="hero-label">
+                    PROMO TERBARU
+                </span>
+
+                <h1>
+                    Elektronik Berkualitas
+                    <span>Harga Bersahabat</span>
+                </h1>
+
+                <p>
+                    Temukan berbagai kebutuhan elektronik
+                    rumah dan bisnis Anda dengan harga
+                    terbaik di Mirza Electronic.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#produk"
+                        class="btn-primary-custom">
+
+                        Belanja Sekarang
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                    <a
+                        href="#kategori"
+                        class="btn-outline-custom">
+
+                        Lihat Kategori
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=1000"
+                    alt="Elektronik">
+
+            </div>
+
+        </div>
+
+
+        <!-- SLIDE 2 -->
+
+        <div class="hero-slide">
+
+            <div class="hero-content">
+
+                <span class="hero-label">
+                    BEST SELLER
+                </span>
+
+                <h1>
+                    Lengkapi Rumah
+                    <span>Dengan Produk Terbaik</span>
+                </h1>
+
+                <p>
+                    AC, TV, kulkas, mesin cuci dan berbagai
+                    perangkat elektronik lainnya tersedia
+                    di Mirza Electronic.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#produk"
+                        class="btn-primary-custom">
+
+                        Lihat Produk
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1000"
+                    alt="Shopping">
+
+            </div>
+
+        </div>
+
+
+        <!-- SLIDE 3 -->
+
+        <div class="hero-slide">
+
+            <div class="hero-content">
+
+                <span class="hero-label">
+                    LAYANAN PROFESIONAL
+                </span>
+
+                <h1>
+                    Belanja Mudah,
+                    <span>Pelayanan Terbaik</span>
+                </h1>
+
+                <p>
+                    Dapatkan konsultasi produk, pengiriman,
+                    instalasi dan layanan purna jual dari
+                    tim Mirza Electronic.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#layanan"
+                        class="btn-primary-custom">
+
+                        Lihat Layanan
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1000"
+                    alt="Customer Service">
+
+            </div>
+
+        </div>
+
+
+        <!-- CONTROLS -->
+
+        <button
+            class="hero-control prev"
+            id="heroPrev">
+
+            <i class="fa-solid fa-chevron-left"></i>
+
+        </button>
+
+        <button
+            class="hero-control next"
+            id="heroNext">
+
+            <i class="fa-solid fa-chevron-right"></i>
+
+        </button>
+
+
+        <div class="hero-dots">
+
+            <button class="hero-dot active"></button>
+            <button class="hero-dot"></button>
+            <button class="hero-dot"></button>
+
+        </div>
+
+    </div>
+
+</div>
+```
+
+</section>
+
+<!-- =====================================================
+     BENEFITS
+===================================================== -->
+
+<section class="benefit-section">
+
+```
+<div class="container">
+
+    <div class="benefit-grid">
+
+        <div class="benefit-item">
+
+            <div class="benefit-icon">
+                <i class="fa-solid fa-shield-halved"></i>
+            </div>
+
+            <div>
+                <strong>Produk Terjamin</strong>
+                <span>Produk berkualitas</span>
+            </div>
+
+        </div>
+
+
+        <div class="benefit-item">
+
+            <div class="benefit-icon">
+                <i class="fa-solid fa-tags"></i>
+            </div>
+
+            <div>
+                <strong>Harga Kompetitif</strong>
+                <span>Harga terbaik</span>
+            </div>
+
+        </div>
+
+
+        <div class="benefit-item">
+
+            <div class="benefit-icon">
+                <i class="fa-solid fa-truck-fast"></i>
+            </div>
+
+            <div>
+                <strong>Pengiriman</strong>
+                <span>Cepat dan aman</span>
+            </div>
+
+        </div>
+
+
+        <div class="benefit-item">
+
+            <div class="benefit-icon">
+                <i class="fa-solid fa-headset"></i>
+            </div>
+
+            <div>
+                <strong>Customer Support</strong>
+                <span>Siap membantu</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+```
+
+</section>
+
+<!-- =====================================================
+     CATEGORY
+===================================================== -->
+
+<section
+    id="kategori"
+    class="category-section">
+
+```
+<div class="container">
+
+    <div class="section-heading">
+
+        <div>
+
+            <span>KATEGORI</span>
+
+            <h2>
+                Belanja Berdasarkan Kategori
+            </h2>
+
+        </div>
+
+        <a href="#produk">
+            Lihat Semua
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+
+    <div class="category-grid">
+
+
+        <button
+            class="category-card"
+            data-category="AC">
+
+            <div class="category-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=500"
+                    alt="AC">
+
+            </div>
+
+            <strong>AC</strong>
+
+            <span>25 Produk</span>
+
+        </button>
+
+
+        <button
+            class="category-card"
+            data-category="TV">
+
+            <div class="category-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1593784991095-a205069470b6?w=500"
+                    alt="TV">
+
+            </div>
+
+            <strong>Televisi</strong>
+
+            <span>32 Produk</span>
+
+        </button>
+
+
+        <button
+            class="category-card"
+            data-category="Kulkas">
+
+            <div class="category-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=500"
+                    alt="Kulkas">
+
+            </div>
+
+            <strong>Kulkas</strong>
+
+            <span>18 Produk</span>
+
+        </button>
+
+
+        <button
+            class="category-card"
+            data-category="Mesin Cuci">
+
+            <div class="category-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=500"
+                    alt="Mesin Cuci">
+
+            </div>
+
+            <strong>Mesin Cuci</strong>
+
+            <span>20 Produk</span>
+
+        </button>
+
+
+        <button
+            class="category-card"
+            data-category="Kipas">
+
+            <div class="category-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?w=500"
+                    alt="Kipas">
+
+            </div>
+
+            <strong>Kipas Angin</strong>
+
+            <span>15 Produk</span>
+
+        </button>
+
+
+        <button
+            class="category-card"
+            data-category="Dapur">
+
+            <div class="category-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=500"
+                    alt="Dapur">
+
+            </div>
+
+            <strong>Peralatan Dapur</strong>
+
+            <span>40 Produk</span>
+
+        </button>
+
+    </div>
+
+</div>
+```
+
+</section>
+
+<!-- =====================================================
+     PRODUCTS
+===================================================== -->
+
+<section
+    id="produk"
+    class="products-section">
+
+```
+<div class="container">
+
+    <div class="section-heading">
+
+        <div>
+
+            <span>PRODUK</span>
+
+            <h2>
+                Produk Pilihan
+            </h2>
+
+            <p id="productResultText">
+                Produk terbaik pilihan pelanggan.
+            </p>
+
+        </div>
+
+        <div class="product-sort">
+
+            <select id="sortProducts">
+
+                <option value="default">
+                    Urutkan
+                </option>
+
+                <option value="low">
+                    Harga Terendah
+                </option>
+
+                <option value="high">
+                    Harga Tertinggi
+                </option>
+
+                <option value="name">
+                    Nama A-Z
+                </option>
+
+            </select>
+
+        </div>
+
+    </div>
+
+
+    <div
+        id="productGrid"
+        class="product-grid">
+
+
+        <!-- PRODUCT 1 -->
+
+        <article
+            class="product-card"
+            data-id="1"
+            data-name="Daikin Inverter 1 PK"
+            data-category="AC"
+            data-price="4500000">
+
+            <div class="product-image">
+
+                <span class="product-badge">
+                    Best Seller
+                </span>
+
+                <button
+                    class="wishlist-btn"
+                    aria-label="Wishlist">
+
+                    <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+                <img
+                    src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600"
+                    alt="Daikin Inverter">
+
+                <button
+                    class="quick-view-btn">
+
+                    <i class="fa-solid fa-eye"></i>
+
+                    Quick View
+
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <span class="product-brand">
+                    DAIKIN
+                </span>
+
+                <h3>
+                    AC Daikin Inverter 1 PK
+                </h3>
+
+                <div class="rating">
+
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                    <span>
+                        (24)
+                    </span>
+
+                </div>
+
+                <div class="product-price">
+
+                    <strong>
+                        Rp4.500.000
+                    </strong>
+
+                    <del>
+                        Rp5.000.000
+                    </del>
+
+                </div>
+
+                <div class="wholesale-price">
+
+                    Harga grosir mulai
+                    <strong>Rp4.300.000</strong>
+
+                </div>
+
+                <div class="stock">
+
+                    <i class="fa-solid fa-box"></i>
+
+                    Stok tersedia: 8
+
+                </div>
+
+                <button
+                    class="add-cart-btn">
+
+                    <i class="fa-solid fa-cart-plus"></i>
+
+                    Tambah ke Keranjang
+
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCT 2 -->
+
+        <article
+            class="product-card"
+            data-id="2"
+            data-name="Samsung Smart TV 43"
+            data-category="TV"
+            data-price="5200000">
+
+            <div class="product-image">
+
+                <span class="product-badge new">
+                    New
+                </span>
+
+                <button class="wishlist-btn">
+
+                    <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+                <img
+                    src="https://images.unsplash.com/photo-1593784991095-a205069470b6?w=600"
+                    alt="Samsung Smart TV">
+
+                <button class="quick-view-btn">
+
+                    <i class="fa-solid fa-eye"></i>
+
+                    Quick View
+
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <span class="product-brand">
+                    SAMSUNG
+                </span>
+
+                <h3>
+                    Samsung Smart TV 43" 4K
+                </h3>
+
+                <div class="rating">
+
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                    <span>
+                        (18)
+                    </span>
+
+                </div>
+
+                <div class="product-price">
+
+                    <strong>
+                        Rp5.200.000
+                    </strong>
+
+                </div>
+
+                <div class="wholesale-price">
+
+                    Harga grosir mulai
+                    <strong>Rp4.950.000</strong>
+
+                </div>
+
+                <div class="stock">
+
+                    <i class="fa-solid fa-box"></i>
+
+                    Stok tersedia: 5
+
+                </div>
+
+                <button class="add-cart-btn">
+
+                    <i class="fa-solid fa-cart-plus"></i>
+
+                    Tambah ke Keranjang
+
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCT 3 -->
+
+        <article
+            class="product-card"
+            data-id="3"
+            data-name="LG Kulkas 2 Pintu"
+            data-category="Kulkas"
+            data-price="6300000">
+
+            <div class="product-image">
+
+                <span class="product-badge promo">
+                    Promo
+                </span>
+
+                <button class="wishlist-btn">
+
+                    <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+                <img
+                    src="https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=600"
+                    alt="LG Kulkas">
+
+                <button class="quick-view-btn">
+
+                    <i class="fa-solid fa-eye"></i>
+
+                    Quick View
+
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <span class="product-brand">
+                    LG
+                </span>
+
+                <h3>
+                    LG Kulkas 2 Pintu Inverter
+                </h3>
+
+                <div class="rating">
+
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                    <span>
+                        (31)
+                    </span>
+
+                </div>
+
+                <div class="product-price">
+
+                    <strong>
+                        Rp6.300.000
+                    </strong>
+
+                    <del>
+                        Rp7.000.000
+                    </del>
+
+                </div>
+
+                <div class="wholesale-price">
+
+                    Harga grosir mulai
+                    <strong>Rp6.000.000</strong>
+
+                </div>
+
+                <div class="stock">
+
+                    <i class="fa-solid fa-box"></i>
+
+                    Stok tersedia: 3
+
+                </div>
+
+                <button class="add-cart-btn">
+
+                    <i class="fa-solid fa-cart-plus"></i>
+
+                    Tambah ke Keranjang
+
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCT 4 -->
+
+        <article
+            class="product-card"
+            data-id="4"
+            data-name="Sharp Mesin Cuci 8 Kg"
+            data-category="Mesin Cuci"
+            data-price="3800000">
+
+            <div class="product-image">
+
+                <span class="product-badge">
+                    Favorite
+                </span>
+
+                <button class="wishlist-btn">
+
+                    <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+                <img
+                    src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=600"
+                    alt="Sharp Mesin Cuci">
+
+                <button class="quick-view-btn">
+
+                    <i class="fa-solid fa-eye"></i>
+
+                    Quick View
+
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <span class="product-brand">
+                    SHARP
+                </span>
+
+                <h3>
+                    Sharp Mesin Cuci 8 Kg
+                </h3>
+
+                <div class="rating">
+
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                    <span>
+                        (12)
+                    </span>
+
+                </div>
+
+                <div class="product-price">
+
+                    <strong>
+                        Rp3.800.000
+                    </strong>
+
+                    <del>
+                        Rp4.200.000
+                    </del>
+
+                </div>
+
+                <div class="wholesale-price">
+
+                    Harga grosir mulai
+                    <strong>Rp3.600.000</strong>
+
+                </div>
+
+                <div class="stock">
+
+                    <i class="fa-solid fa-box"></i>
+
+                    Stok tersedia: 10
+
+                </div>
+
+                <button class="add-cart-btn">
+
+                    <i class="fa-solid fa-cart-plus"></i>
+
+                    Tambah ke Keranjang
+
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCT 5 -->
+
+        <article
+            class="product-card"
+            data-id="5"
+            data-name="Miyako Kipas Angin"
+            data-category="Kipas"
+            data-price="450000">
+
+            <div class="product-image">
+
+                <button class="wishlist-btn">
+
+                    <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+                <img
+                    src="https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?w=600"
+                    alt="Kipas Angin">
+
+                <button class="quick-view-btn">
+
+                    <i class="fa-solid fa-eye"></i>
+
+                    Quick View
+
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <span class="product-brand">
+                    MIYAKO
+                </span>
+
+                <h3>
+                    Miyako Kipas Angin 16"
+                </h3>
+
+                <div class="rating">
+
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                    <span>
+                        (45)
+                    </span>
+
+                </div>
+
+                <div class="product-price">
+
+                    <strong>
+                        Rp450.000
+                    </strong>
+
+                </div>
+
+                <div class="wholesale-price">
+
+                    Harga grosir mulai
+                    <strong>Rp425.000</strong>
+
+                </div>
+
+                <div class="stock">
+
+                    <i class="fa-solid fa-box"></i>
+
+                    Stok tersedia: 20
+
+                </div>
+
+                <button class="add-cart-btn">
+
+                    <i class="fa-solid fa-cart-plus"></i>
+
+                    Tambah ke Keranjang
+
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCT 6 -->
+
+        <article
+            class="product-card"
+            data-id="6"
+            data-name="Philips Blender"
+            data-category="Dapur"
+            data-price="650000">
+
+            <div class="product-image">
+
+                <span class="product-badge new">
+                    New
+                </span>
+
+                <button class="wishlist-btn">
+
+                    <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+                <img
+                    src="https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=600"
+                    alt="Blender">
+
+                <button class="quick-view-btn">
+
+                    <i class="fa-solid fa-eye"></i>
+
+                    Quick View
+
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <span class="product-brand">
+                    PHILIPS
+                </span>
+
+                <h3>
+                    Philips Blender Series 5000
+                </h3>
+
+                <div class="rating">
+
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                    <span>
+                        (9)
+                    </span>
+
+                </div>
+
+                <div class="product-price">
+
+                    <strong>
+                        Rp650.000
+                    </strong>
+
+                </div>
+
+                <div class="wholesale-price">
+
+                    Harga grosir mulai
+                    <strong>Rp610.000</strong>
+
+                </div>
+
+                <div class="stock">
+
+                    <i class="fa-solid fa-box"></i>
+
+                    Stok tersedia: 12
+
+                </div>
+
+                <button class="add-cart-btn">
+
+                    <i class="fa-solid fa-cart-plus"></i>
+
+                    Tambah ke Keranjang
+
+                </button>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <div
+        id="noProduct"
+        class="no-product">
+
+        <i class="fa-solid fa-box-open"></i>
+
+        <h3>
+            Produk tidak ditemukan
+        </h3>
+
+        <p>
+            Coba gunakan kata kunci atau kategori lain.
+        </p>
+
+    </div>
+
+
+    <div class="load-more-wrapper">
+
+        <button
+            id="loadMore"
+            class="btn-outline-custom dark">
+
+            Lihat Semua Produk
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </button>
+
+    </div>
+
+</div>
+```
+
+</section>
+
+<!-- =====================================================
+     PROMO
+===================================================== -->
+
+<section
+    id="promo"
+    class="promo-section">
+
+```
+<div class="container">
+
+    <div class="promo-banner">
+
+        <div class="promo-content">
+
+            <span>
+                SPECIAL OFFER
+            </span>
+
+            <h2>
+                Hemat Hingga
+                <strong>30%</strong>
+            </h2>
+
+            <p>
+                Dapatkan harga spesial untuk produk
+                elektronik pilihan.
+            </p>
+
+            <a
+                href="#produk"
+                class="btn-white">
+
+                Belanja Sekarang
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+
+        <div class="promo-icon">
+
+            <i class="fa-solid fa-percent"></i>
+
+        </div>
+
+    </div>
+
+</div>
+```
+
+</section>
+
+<!-- =====================================================
+     SERVICES
+===================================================== -->
+
+<section
+    id="layanan"
+    class="service-section">
+
+```
+<div class="container">
+
+    <div class="section-heading centered">
+
+        <div>
+
+            <span>LAYANAN KAMI</span>
+
+            <h2>
+                Lebih Dari Sekadar Toko Elektronik
+            </h2>
+
+            <p>
+                Kami membantu Anda mulai dari memilih produk
+                sampai layanan setelah pembelian.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="service-grid">
+
+
+        <div class="service-card">
+
+            <div class="service-icon">
+
+                <i class="fa-solid fa-truck-fast"></i>
+
+            </div>
+
+            <h3>
+                Pengiriman
+            </h3>
+
+            <p>
+                Pengiriman produk yang cepat,
+                aman dan terpercaya.
+            </p>
+
+            <a href="#kontak">
+                Selengkapnya
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <div class="service-icon">
+
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+
+            </div>
+
+            <h3>
+                Instalasi
+            </h3>
+
+            <p>
+                Layanan pemasangan produk oleh
+                teknisi berpengalaman.
+            </p>
+
+            <a href="#kontak">
+                Selengkapnya
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <div class="service-icon">
+
+                <i class="fa-solid fa-gears"></i>
+
+            </div>
+
+            <h3>
+                Maintenance
+            </h3>
+
+            <p>
+                Perawatan dan pengecekan perangkat
+                elektronik secara profesional.
+            </p>
+
+            <a href="#kontak">
+                Selengkapnya
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <div class="service-icon">
+
+                <i class="fa-solid fa-headset"></i>
+
+            </div>
+
+            <h3>
+                Konsultasi
+            </h3>
+
+            <p>
+                Konsultasikan kebutuhan elektronik
+                bersama tim kami.
+            </p>
+
+            <a href="#kontak">
+                Selengkapnya
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+```
+
+</section>
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section
+    id="tentang"
+    class="about-section">
+
+```
+<div class="container">
+
+    <div class="about-grid">
+
+        <div class="about-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=900"
+                alt="Mirza Electronic">
+
+            <div class="about-badge">
+
+                <strong>10+</strong>
+
+                <span>
+                    Tahun Melayani
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="about-content">
+
+            <span>
+                TENTANG MIRZA ELECTRONIC
+            </span>
+
+            <h2>
+                Solusi Elektronik
+                <strong>Untuk Kebutuhan Anda</strong>
+            </h2>
+
+            <p>
+                Mirza Electronic hadir sebagai partner
+                terpercaya untuk memenuhi kebutuhan elektronik
+                rumah tangga maupun bisnis.
+            </p>
+
+            <p>
+                Kami mengutamakan kualitas produk, harga yang
+                kompetitif dan pelayanan yang profesional.
+            </p>
+
+
+            <div class="about-list">
+
+                <div>
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    <span>
+                        Produk berkualitas
+                    </span>
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    <span>
+                        Harga kompetitif
+                    </span>
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    <span>
+                        Pelayanan profesional
+                    </span>
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    <span>
+                        Dukungan purna jual
+                    </span>
+
+                </div>
+
+            </div>
+
+            <a
+                href="#kontak"
+                class="btn-primary-custom">
+
+                Hubungi Kami
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+```
+
+</section>
+
+<!-- =====================================================
+     BRANDS
+===================================================== -->
+
+<section class="brand-section">
+
+```
+<div class="container">
+
+    <div class="section-heading centered">
+
+        <div>
+
+            <span>BRAND</span>
+
+            <h2>
+                Brand Pilihan
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <div class="brand-grid">
+
+        <div class="brand-item">
+            SAMSUNG
+        </div>
+
+        <div class="brand-item">
+            LG
+        </div>
+
+        <div class="brand-item">
+            DAIKIN
+        </div>
+
+        <div class="brand-item">
+            SHARP
+        </div>
+
+        <div class="brand-item">
+            PANASONIC
+        </div>
+
+        <div class="brand-item">
+            PHILIPS
+        </div>
+
+    </div>
+
+</div>
+```
+
+</section>
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section
+    id="kontak"
+    class="contact-section">
+
+```
+<div class="container">
+
+    <div class="contact-box">
+
+        <div class="contact-content">
+
+            <span>
+                BUTUH BANTUAN?
+            </span>
+
+            <h2>
+                Konsultasikan Kebutuhan
+                Elektronik Anda
+            </h2>
+
+            <p>
+                Tim Mirza Electronic siap membantu Anda
+                memilih produk yang sesuai dengan kebutuhan
+                dan budget.
+            </p>
+
+            <a
+                href="https://wa.me/6281234567890"
+                target="_blank"
+                class="whatsapp-button">
+
+                <i class="fa-brands fa-whatsapp"></i>
+
+                Chat WhatsApp
+
+            </a>
+
+        </div>
+
+
+        <div class="contact-info">
+
+            <div>
+
+                <i class="fa-solid fa-phone"></i>
+
+                <div>
+
+                    <span>Telepon</span>
+
+                    <strong>
+                        085174392098
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <div>
+
+                    <span>Email</span>
+
+                    <strong>
+                        mirzaahyar03@gmail.com
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <div>
+
+                    <span>Lokasi</span>
+
+                    <strong>
+                        Surabaya, Jawa Timur
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+```
+
+</section>
+
+</main>
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+```
+<div class="container">
+
+    <div class="footer-grid">
+
+
+        <div class="footer-about">
+
+            <a href="#home" class="logo">
+
+                <div class="logo-icon">
+                    <i class="fa-solid fa-bolt"></i>
+                </div>
+
+                <div class="logo-text">
+                    <strong>Mirza</strong>
+                    <span>Electronic</span>
+                </div>
+
+            </a>
+
+            <p>
+                Solusi kebutuhan elektronik rumah dan bisnis
+                dengan produk berkualitas dan pelayanan
+                profesional.
+            </p>
+
+            <div class="social-links">
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+
+                <a
+                    href="https://wa.me/6281234567890"
+                    target="_blank">
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>
+                Produk
+            </h4>
+
+            <a href="#produk">
+                AC
+            </a>
+
+            <a href="#produk">
+                Televisi
+            </a>
+
+            <a href="#produk">
+                Kulkas
+            </a>
+
+            <a href="#produk">
+                Mesin Cuci
+            </a>
+
+            <a href="#produk">
+                Peralatan Dapur
+            </a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>
+                Informasi
+            </h4>
+
+            <a href="#tentang">
+                Tentang Kami
+            </a>
+
+            <a href="#layanan">
+                Layanan
+            </a>
+
+            <a href="#promo">
+                Promo
+            </a>
+
+            <a href="#">
+                Syarat & Ketentuan
+            </a>
+
+            <a href="#">
+                Kebijakan Privasi
+            </a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>
+                Hubungi Kami
+            </h4>
+
+            <a href="tel:+6281234567890">
+                <i class="fa-solid fa-phone"></i>
+                085174392098
+            </a>
+
+            <a href="mailto:mirzaahyar03@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                mirzaahyar03@gmail.com
+            </a>
+
+            <a href="#">
+                <i class="fa-solid fa-location-dot"></i>
+                Surabaya, Jawa Timur
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 Mirza Electronic.
+            All Rights Reserved.
+        </span>
+
+        <span>
+            Made for better living.
+        </span>
+
+    </div>
+
+</div>
+```
+
+</footer>
+
+<!-- =====================================================
+     QUICK VIEW MODAL
+===================================================== -->
+
+<div
+    class="modal fade"
+    id="quickViewModal"
+    tabindex="-1">
+
+```
+<div class="modal-dialog modal-dialog-centered modal-lg">
+
+    <div class="modal-content">
+
+        <div class="modal-header">
+
+            <h5 class="modal-title">
+                Detail Produk
+            </h5>
+
+            <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal">
+            </button>
+
+        </div>
+
+
+        <div class="modal-body">
+
+            <div class="quick-view-grid">
+
+                <div>
+
+                    <img
+                        id="modalProductImage"
+                        src=""
+                        alt="Product">
+
+                </div>
+
+
+                <div class="quick-view-info">
+
+                    <span
+                        id="modalProductBrand">
+                    </span>
+
+                    <h2
+                        id="modalProductName">
+                    </h2>
+
+                    <div class="rating">
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+                    </div>
+
+                    <div
+                        id="modalProductPrice"
+                        class="modal-price">
+                    </div>
+
+                    <p>
+                        Produk berkualitas dengan garansi
+                        dan layanan purna jual.
+                    </p>
+
+                    <div class="quantity-control">
+
+                        <button id="modalMinus">
+                            -
+                        </button>
+
+                        <span id="modalQuantity">
+                            1
+                        </span>
+
+                        <button id="modalPlus">
+                            +
+                        </button>
+
+                    </div>
+
+                    <button
+                        id="modalAddCart"
+                        class="add-cart-btn">
+
+                        <i class="fa-solid fa-cart-plus"></i>
+
+                        Tambah ke Keranjang
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+```
+
+</div>
+
+<!-- =====================================================
+     CART OFFCANVAS
+===================================================== -->
+
+<div
+    class="offcanvas offcanvas-end cart-panel"
+    tabindex="-1"
+    id="cartCanvas">
+
+```
+<div class="offcanvas-header">
+
+    <h5>
+        <i class="fa-solid fa-cart-shopping"></i>
+        Keranjang Saya
+    </h5>
+
+    <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="offcanvas">
+    </button>
+
+</div>
+
+
+<div class="offcanvas-body">
+
+    <div
+        id="cartItems"
+        class="cart-items">
+
+        <div class="empty-cart">
+
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <h4>
+                Keranjang masih kosong
+            </h4>
+
+            <p>
+                Tambahkan produk untuk mulai berbelanja.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="cart-footer">
+
+    <div class="cart-total">
+
+        <span>
+            Total
+        </span>
+
+        <strong id="cartTotal">
+            Rp0
+        </strong>
+
+    </div>
+
+    <button
+        id="checkoutButton"
+        class="checkout-button">
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+        Checkout via WhatsApp
+
+    </button>
+
+</div>
+```
+
+</div>
+
+<!-- =====================================================
+     TOAST
+===================================================== -->
+
+<div
+    id="toast"
+    class="toast-custom">
+
+```
+<i class="fa-solid fa-circle-check"></i>
+
+<span id="toastMessage">
+    Produk ditambahkan.
+</span>
+```
+
+</div>
+
+<!-- =====================================================
+     BACK TO TOP
+===================================================== -->
+
+<button
+ id="backToTop"
+ class="back-to-top">
+
+```
+<i class="fa-solid fa-arrow-up"></i>
+```
+
+</button>
+
+<!-- Bootstrap JS -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+<!-- Custom JS -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
